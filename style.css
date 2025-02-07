@@ -1,0 +1,204 @@
+.pageone{
+    background-color: #E5E5CB;
+}
+.pageone {
+    background-image: url('./assets/images/a29ed9d7ca9cf57f91cf6a06fcef1588.jpg');
+    background-size:cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    color: white; /* Adjust text color for visibility */
+}
+.pageone img{
+    border-radius: 30px;
+    border: 5px solid #222222;
+}
+.pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#7D0A0A;
+  }
+  .quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #434242;
+  }
+  .pageone h2{
+    font-size: calc(1.475rem + 2.7vw);
+  }
+  .pb-2{
+    font-size:40px;
+  }
+  
+.head{
+    text-align: center;
+    width: 100%;
+}
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #222222;
+    font-size:xx-large;
+  }
+  hr {
+    background-color:#222222; /* Change to any color */
+    height: 5px; /* Thickness of the line */
+    border: none;
+}
+.custom-img {
+    width: 600px;  /* Adjust as needed */
+    height: 700px;  /* Keeps aspect ratio */
+    max-width: 100%; /* Ensures responsiveness */
+}
+
+.pagetwo{
+    background-color: #F3EFE0;
+    border: 5px solid;
+    
+}
+.pb-2{
+    text-align: center;
+    width: 100%;
+    font-family:"Abril Fatface", serif ;
+}
+.card-cover {
+    background-size: cover;      /* Ensures image covers full card */
+    background-position: center; /* Centers image inside card */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    height: 300px; /* Set a fixed height to control image display */
+
+}
+.col h3{
+    color: #7D0A0A;
+    font-family:pt-serif-bold ;
+}
+.card-text {
+    text-align: center; /* Centers text below the card */
+}
+
+.card-text h3 {
+    
+margin-bottom: 5px; /* Adds spacing between heading and paragraph */
+}
+.card-body a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #7D0A0A;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+.pagetwo p{
+    font-family:"Quicksand", serif ;
+    font-size:larger;
+    font-weight: 500;
+    color: #F3EFE0;
+}
+
+.pagetwo {
+    min-height: auto; /* Ensures it takes at least the full screen height */
+    box-sizing: border-box;
+    padding: 50px 0; /* Adds some spacing inside */
+}
+
+.card img {
+    width: 100%;  /* Makes image fill the container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures proper cropping */
+}
+@media (max-width: 768px) { 
+    .pagetwo {
+        padding: 20px 10px;
+    }
+    .card {
+        padding: 15px;
+    }
+}
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.5rem; /* Reduce heading size */
+    }
+    p {
+        font-size: 0.9rem; /* Adjust paragraph size */
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    .item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .item {
+        width: 100%;
+    }
+}
+.pagethree {
+    clear: both;
+    width: 100%;
+}
+.pagethree {
+    display: block !important;
+    min-height: 500px;
+    background-color: #F3EFE0;
+    border: 5px solid ;
+    border-color:#222222;
+    position: relative;
+    z-index: 9999; /* Bring to front */
+}
+.cat{
+    height: 300px;
+    border-radius: 360px;
+    width: 300px;
+    border: 5px solid #7D0A0A;
+}
+.featurette-heading{
+    color: #7D0A0A;
+    font-family: "PT Serif", serif ;
+    font-weight: 500;
+}
+.abc{
+    font-family:"Quicksand", serif ;
+    font-weight: 500;
+    font-size: larger;
+}
+.pagefour{
+    background-image: url('./assets/images/a29ed9d7ca9cf57f91cf6a06fcef1588.jpg');
+    background-size:cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    color: white; 
+}
+.contact{
+    border-radius: 300px;
+    border:5px solid #7D0A0A;
+
+}
+.display-4{
+    font-family: "Abril Fatface", serif ;
+    color: #222222;
+}
+.c{
+    font-family: "Quicksand", serif;
+    color: #434242;
+    font-size:x-large;
+}
+.pagefour a{
+    background-color: #7D0A0A;
+    color: #F3EFE0;
+}
+.footer{
+    background-color: #AF8F6F;
+}
+
